@@ -1,8 +1,8 @@
-# 项目代号
-# 项目名称（项目代号）
+# HuaXiaGS.Messaging
+# 消息队列服务产品中间件（HuaXiaGS.Messaging）
 
 #### 介绍
-项目介绍信息
+消息队列服务中间件采用面向接口编程，提取常用消息队列行为作公共接口，充分利用异步编程模式（async与await），具备LocalMQ、ActiveMQ、Kafka、RabbitMQ、ZeroMQ等多种服务接入，使用ServiceBus服务总线模式，实现多种消息队列服务的一体化应用；独立封装LocalizedBridged本化桥梁组件，以支持模块间的对象传递。
 
 #### 软件架构
 软件架构说明
